@@ -1,0 +1,153 @@
+
+
+.navbar{
+	height: 100px;
+}
+
+.card{
+	transition: all 0.3s;
+}
+.card:hover{
+	transform:scale(1.15) ;
+}
+
+.nav li {
+   margin-left: 40px;
+}
+. a{
+	color: white;
+}
+
+.navbar-brand{
+	margin-left: 20px;
+}
+
+a:hover {
+  background-color: steelblue;
+}
+
+.background-image{
+	background-image: url("../image/background.jpg");
+	min-height: 500px;
+	opacity: 0.7;
+
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  margin-bottom: -30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 150px;
+}
+body{
+	background-color: grey;
+}
+.myDiv {
+  
+  background-color: white;    
+  text-align: center;
+  height: 300px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-top: 30px;
+
+}
+
+.super{
+	font-size: 20px;
+	margin-top:30px;"
+}
+
+.info{
+
+	width:500px;
+	border-style: outset;
+	 margin-top: 30px;
+	 padding-bottom: 20px; 
+	 background-color: black;
+	 color: white; 
+	 padding-top: 20px;"
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.fa-google {
+	font-size: 30px;
+	color: steelblue;
+}
+
+.fa-square-twitter {
+
+	font-size: 30px;
+	color: skyblue;
+}
+
+.fa-facebook{
+	font-size: 30px;
+	color: blue;
+}
+.fa-square-instagram{
+	font-size: 30px;
+	color: sandybrown;
+}
+@media screen and (max-width: 380px)
+
+{
+
+.centered {
+	
+    top: 58%;
+    left: -2%;
+    
+    font-size: 20px;
+    margin-bottom: -30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.super{
+	font-size: 13px;
+	
+}
+
+.info{
+
+	width:350px;
+	
+}
+.text {
+  
+  font-size: 6px;
+  
+}
+ 
+
+}
+
+
+
+
+
+
+
+
